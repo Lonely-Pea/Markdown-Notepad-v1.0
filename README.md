@@ -17,11 +17,11 @@
 
 下面是软件的主要思路：  
 
-1. 界面
+1. 界面  
 : 使用tkinter相关模块创建窗口，并在窗口内添加各种内容。
-2. 文件
+2. 文件  
 : 使用os模块实现对文件的处理。
-3. 编辑
+3. 编辑  
 : 使用tkinter的Text组件实现对文件的编辑。
 
 # Markdown Notepad v1.0 主要功能
@@ -30,12 +30,12 @@
 
 # 语法细则
 
-with
-：with 可以用来打开和对文件进行相关处理。
-: 使用`with open(__file__, "w") as f:`
-: 编辑__file__。
-os.system
-: os.system 可以用来执行Windows系统上的终端指令。
+with  
+：with 可以用来打开和对文件进行相关处理。  
+: 使用`with open(__file__, "w") as f:`  
+: 编辑__file__。  
+os.system  
+: os.system 可以用来执行Windows系统上的终端指令。  
 : `os.system(f'start "" "msedge.exe" "{os.path.dirname(os.path.abspath("test.md"))}\\test.md"')`可以用来在edge浏览器中打开md文件。前提是你必须已经安装好了edge浏览器并且已经安装好了Markdown Viewer插件。
 
 # 代码解析
